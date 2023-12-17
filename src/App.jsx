@@ -6,7 +6,7 @@ import { About, Contact, Home, Projects } from "./pages/index.js";
 const App = () => {
   return (
     <main className="bg-slate-300/20">
-      <Router basename="/pf">
+      <Router >
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
